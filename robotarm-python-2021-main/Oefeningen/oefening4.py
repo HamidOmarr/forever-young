@@ -14,9 +14,7 @@ for A in range (2):
     
 for A in range (3):
     robotArm.grab()
-    for A in range (1):
-      robotArm.moveLeft()
+    robotArm.moveLeft()
     robotArm.drop()
-    for A in range (1):
-        robotArm.moveRight()
+    robotArm.moveRight()
 robotArm.wait()
